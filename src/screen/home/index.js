@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { Box } from "@chakra-ui/react";
 import ImgWelcome from "../../assert/Welcome.png";
+import CustomSwitch from "../../components/Switch";
 
 export default function Home() {
   const tutorialesUrl = "https://youtu.be/RLyNuzsGb0M";
@@ -29,6 +30,7 @@ export default function Home() {
             allow="autoPlay"
             src={tutorialesUrl}
           />
+          <CustomSwitch/>
         </div>
       </div>
 
